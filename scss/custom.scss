@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//custom variables
+$border-none: none;
+$border-radius: .5rem;
+
+
+
+
+//custom colors
+$primary-color: #b9b9b9; 
+$secondary-color: #000000;   
+
+//navbar
+.navbar{
+background-color: $primary-color;
+    
+}
+
+//buttons
+.btn-primary{
+    background-color: $secondary-color;
+    border: $border-none;
+    border-radius: $border-radius;
+    
+}
+
+//cards
+
+.carousel-inner,
+.carousel-item {
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
