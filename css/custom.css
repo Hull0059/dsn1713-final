@@ -11864,4 +11864,12 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+@media (min-width: 938px) {
+  .carousel-inner,
+  .carousel-item {
+    max-height: 600px;
+    object-fit: contain;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */

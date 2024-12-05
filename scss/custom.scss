@@ -4,6 +4,10 @@
 $border-none: none;
 $border-radius: .5rem;
 
+//desktop variables
+
+
+
 
 
 
@@ -35,4 +39,16 @@ background-color: $primary-color;
 
 .carousel-inner img {
     height: 100%;
+}
+ 
+@media(min-width: 938px){
+    .carousel-inner,
+    .carousel-item{
+ max-height: 600px;
+ object-fit:contain;
+    }
+
+
+
+
 }
