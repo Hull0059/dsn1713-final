@@ -41,6 +41,9 @@ background-color: $primary-color;
     height: 100%;
 }
  
+
+//desktop
+
 @media(min-width: 938px){
     .carousel-inner,
     .carousel-item{
@@ -48,7 +51,12 @@ background-color: $primary-color;
  object-fit:contain;
     }
 
+.graphic{
+grid-template-columns: 1fr 1fr 1fr;    
+}
 
-
+.btn-primary{
+   padding: 8px 16px;
+}
 
 }

@@ -11870,6 +11870,12 @@ textarea.form-control-lg {
     max-height: 600px;
     object-fit: contain;
   }
+  .graphic {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .btn-primary {
+    padding: 8px 16px;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
