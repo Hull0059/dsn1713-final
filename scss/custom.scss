@@ -4,22 +4,37 @@
 $border-none: none;
 $border-radius: .5rem;
 
-//desktop variables
-
-
-
-
-
 
 //custom colors
 $primary-color: #b9b9b9; 
 $secondary-color: #000000;   
+
+//animation
+:root{
+--animate-duration: 2s;
+--animate-delay: 2s;
+}
+
 
 //navbar
 .navbar{
 background-color: $primary-color;
     
 }
+
+//nav icons
+
+.map{
+color:black
+}
+.heart{
+color: black;
+}
+
+.bag{
+color: black;
+}
+
 
 //buttons
 .btn-primary{
@@ -41,6 +56,34 @@ background-color: $primary-color;
     height: 100%;
 }
  
+.img-fixed-height{
+ height: 200px;
+ object-fit: cover;
+ width: 100%  ;
+
+}
+
+.card:hover{
+    transform: translate(20px);
+    box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1);
+}
+
+//Header icons
+
+.arrow{
+vertical-align: middle;
+}
+
+.filter{
+vertical-align: middle;
+}
+
+//animation
+.animate__animated .animate__fadeInLeft{
+    --animate-duration: 4s;
+}
+
+
 
 //desktop
 
@@ -50,6 +93,7 @@ background-color: $primary-color;
  max-height: 600px;
  object-fit:contain;
     }
+
 
 .graphic{
 grid-template-columns: 1fr 1fr 1fr;    

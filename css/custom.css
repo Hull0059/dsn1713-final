@@ -11844,8 +11844,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --animate-duration: 2s;
+  --animate-delay: 2s;
+}
+
 .navbar {
   background-color: #b9b9b9;
+}
+
+.map {
+  color: black;
+}
+
+.heart {
+  color: black;
+}
+
+.bag {
+  color: black;
 }
 
 .btn-primary {
@@ -11862,6 +11879,29 @@ textarea.form-control-lg {
 
 .carousel-inner img {
   height: 100%;
+}
+
+.img-fixed-height {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card:hover {
+  transform: translate(20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+  vertical-align: middle;
+}
+
+.filter {
+  vertical-align: middle;
+}
+
+.animate__animated .animate__fadeInLeft {
+  --animate-duration: 4s;
 }
 
 @media (min-width: 938px) {
